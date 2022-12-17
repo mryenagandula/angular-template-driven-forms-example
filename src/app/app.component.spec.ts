@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-reactive-forms-example'`, () => {
+  it(`should have as title 'angular-template-driven-forms-example'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-reactive-forms-example');
+    expect(app.title).toEqual('angular-template-driven-forms-example');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-reactive-forms-example app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular-template-driven-forms-example app is running!');
   });
 });

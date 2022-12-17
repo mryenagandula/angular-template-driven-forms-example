@@ -15,7 +15,7 @@ interface User {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-reactive-forms-example';
+  title = 'angular-template-driven-forms-example';
   userModel = {
     firstName:'',
     middleName:'',
